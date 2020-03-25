@@ -37,6 +37,8 @@ h4 {
 }
 h1 {
 	font-size: 1.875em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 h2 {
   font-size: 1.5em;
@@ -172,6 +174,8 @@ header nav ul li a {
 .menu li {
 	/*padding: 10px 0;*/
 	color: #77a466;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .reviews {

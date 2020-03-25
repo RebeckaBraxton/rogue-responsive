@@ -24,6 +24,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	width: 90%;
 }
 
 h1,
@@ -50,7 +51,7 @@ h4 {
 p {
 	font-size: .875em;
 	line-height: 21px;
-  padding: 0 30px;
+  /*padding: 0 30px;*/
 }
 
 /*The widths are in a percentage!*/
@@ -61,13 +62,14 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-
+	text-align: center;
+	width: 100%;
 }
 
 header h1 {
 	/*float: left;*/
 	margin: 0;
-	padding: 38px 0;
+	/*padding: 38px 0;*/
 	border-bottom: 3px solid #77a466;
 }
 
@@ -111,12 +113,6 @@ header nav ul li a {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-}
-
-.top-section {
-
 }
 
 .main-image {
@@ -152,6 +148,7 @@ header nav ul li a {
 	height: auto;
 	/*float: left;*/
 	border-top: 1px solid #eee;
+	width: 100%;
 }
 
 .section-one h4 {
@@ -165,7 +162,7 @@ header nav ul li a {
 
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	/*padding: 10px 30px;*/
 }
 
 .menu {
@@ -173,8 +170,8 @@ header nav ul li a {
 	padding: 0;
 }
 .menu li {
-	padding: 10px 0;
-	color:#77a466;
+	/*padding: 10px 0;*/
+	color: #77a466;
 }
 
 .reviews {
@@ -199,7 +196,9 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	width: 100%;
 }
+
 footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;

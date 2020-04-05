@@ -233,21 +233,20 @@ footer span {
 /*Desktop CSS*/
 
 @media all and (min-width:1200px) {
-	h1 {
-		text-align: left;
+
+	header {
+		display: flex;
+		justify-content: space-between;
 	}
-	
+
 	header h1 {
 		border-bottom: none;
-		justify-content: flex-start;
+		text-align: left;
 		width: 50%;
 	}
 
 	header nav {
 		width: 50%;
-		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
 	}
 
 	header nav ul {
